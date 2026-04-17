@@ -1,0 +1,44 @@
+name: generate 3d contribution graph
+
+on:
+  schedule:
+    - cron: "15 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/3d-contrib.yml'
+
+concurrency:
+  group: 3d-contrib
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: generate 3d contribution svg
+        uses: yoshi389111/github-profile-3d-contrib@44c5dbde80a1b4b6bda63a9ea11a7aebd2672823
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          SETTING_JSON: ".github/3d-contrib-config.json"
+
+      - name: commit 3d contribution svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh 3d contribution graph"
+            git push
+          fi

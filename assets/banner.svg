@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Jason Liu — @kelbimon">
+  <title>Jason Liu — @kelbimon</title>
+
+  <defs>
+    <!-- Primary drifting linear gradient: animated color stops + rotating coords + bezier easing -->
+    <linearGradient id="bg-drift" x1="0%" y1="0%" x2="100%" y2="100%">
+      <animate attributeName="x1" values="0%;100%;100%;0%;0%" dur="32s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;0%;100%;100%;0%" dur="32s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;0%;100%;100%" dur="32s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="100%;100%;0%;0%;100%" dur="32s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+
+      <stop offset="0%" stop-color="#bd93f9">
+        <animate attributeName="stop-color" values="#bd93f9;#ff79c6;#8be9fd;#50fa7b;#ffb86c;#bd93f9" dur="28s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="35%" stop-color="#ff79c6">
+        <animate attributeName="stop-color" values="#ff79c6;#8be9fd;#50fa7b;#ffb86c;#bd93f9;#ff79c6" dur="28s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#8be9fd">
+        <animate attributeName="stop-color" values="#8be9fd;#50fa7b;#ffb86c;#bd93f9;#ff79c6;#8be9fd" dur="28s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#50fa7b">
+        <animate attributeName="stop-color" values="#50fa7b;#ffb86c;#bd93f9;#ff79c6;#8be9fd;#50fa7b" dur="28s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Breathing radial highlight: center drifts, opacity pulses, bezier-eased -->
+    <radialGradient id="breath" cx="30%" cy="40%" r="55%">
+      <animate attributeName="cx" values="30%;70%;60%;40%;30%" dur="22s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="40%;55%;30%;60%;40%" dur="22s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#ff79c6" stop-opacity="0.25">
+        <animate attributeName="stop-color" values="#ff79c6;#bd93f9;#8be9fd;#ff79c6" dur="30s" calcMode="spline" keyTimes="0;0.33;0.66;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        <animate attributeName="stop-opacity" values="0.15;0.3;0.15;0.28;0.15" dur="18s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff79c6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle film-grain noise -->
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.05 0"/>
+    </filter>
+
+    <!-- CRT scanlines pattern -->
+    <pattern id="scanlines" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="3" height="1" fill="#000000" opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <!-- Layered background -->
+  <rect width="1280" height="320" fill="#282a36"/>
+  <rect width="1280" height="320" fill="url(#bg-drift)" opacity="0.18"/>
+  <rect width="1280" height="320" fill="url(#breath)"/>
+  <rect width="1280" height="320" filter="url(#noise)"/>
+  <rect width="1280" height="320" fill="url(#scanlines)"/>
+
+  <!-- Corner brackets — pulsing through Dracula palette -->
+  <g stroke-width="1.5" fill="none">
+    <animate attributeName="stroke" values="#6272a4;#bd93f9;#ff79c6;#8be9fd;#50fa7b;#6272a4" dur="18s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.7;0.5;0.65;0.45" dur="14s" calcMode="spline" keyTimes="0;0.25;0.5;0.75;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+    <path d="M 48 48 L 48 80 M 48 48 L 80 48"/>
+    <path d="M 1232 48 L 1232 80 M 1232 48 L 1200 48"/>
+    <path d="M 48 272 L 48 240 M 48 272 L 80 272"/>
+    <path d="M 1232 272 L 1232 240 M 1232 272 L 1200 272"/>
+  </g>
+
+  <!-- Drifting ASCII particles — ambient background motion -->
+  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#6272a4" opacity="0.18">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;2,-3;0,0" dur="34s" calcMode="spline" keyTimes="0;0.33;0.66;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+    <text x="180" y="130">01</text>
+    <text x="1080" y="140">//</text>
+    <text x="220" y="270">{}</text>
+    <text x="1070" y="260">&gt;_</text>
+    <text x="130" y="200">::</text>
+    <text x="1150" y="210">~~</text>
+  </g>
+
+  <!-- Top-left prompt -->
+  <text x="64" y="72"
+        font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace"
+        font-size="13"
+        fill="#6272a4"
+        letter-spacing="1">~ cat profile.md</text>
+
+  <!-- Digital avatar: agent-core hex glyph (top-right) -->
+  <g transform="translate(1120, 40)">
+    <!-- Outer hex frame with color pulse -->
+    <polygon points="28,4 50,16 50,40 28,52 6,40 6,16"
+             fill="none"
+             stroke="#6272a4"
+             stroke-width="1.2"
+             opacity="0.55">
+      <animate attributeName="stroke" values="#6272a4;#bd93f9;#ff79c6;#8be9fd;#50fa7b;#6272a4" dur="18s" calcMode="spline" keyTimes="0;0.2;0.4;0.6;0.8;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.75;0.5" dur="6s" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Inner rotating node network -->
+    <g transform="translate(28 28)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+
+        <!-- Connecting lines -->
+        <g stroke="#6272a4" stroke-width="0.6" opacity="0.4">
+          <line x1="0" y1="-12" x2="10" y2="-4"/>
+          <line x1="10" y1="-4" x2="7" y2="9"/>
+          <line x1="7" y1="9" x2="-7" y2="9"/>
+          <line x1="-7" y1="9" x2="-10" y2="-4"/>
+          <line x1="-10" y1="-4" x2="0" y2="-12"/>
+          <line x1="0" y1="-12" x2="0" y2="0"/>
+          <line x1="10" y1="-4" x2="0" y2="0"/>
+          <line x1="7" y1="9" x2="0" y2="0"/>
+          <line x1="-7" y1="9" x2="0" y2="0"/>
+          <line x1="-10" y1="-4" x2="0" y2="0"/>
+        </g>
+
+        <!-- Satellite nodes -->
+        <circle cx="0" cy="-12" r="1.8" fill="#bd93f9">
+          <animate attributeName="r" values="1.8;2.8;1.8" dur="3.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="10" cy="-4" r="1.8" fill="#ff79c6">
+          <animate attributeName="r" values="1.8;2.8;1.8" dur="3.5s" begin="0.7s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="7" cy="9" r="1.8" fill="#8be9fd">
+          <animate attributeName="r" values="1.8;2.8;1.8" dur="3.5s" begin="1.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-7" cy="9" r="1.8" fill="#50fa7b">
+          <animate attributeName="r" values="1.8;2.8;1.8" dur="3.5s" begin="2.1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-10" cy="-4" r="1.8" fill="#ffb86c">
+          <animate attributeName="r" values="1.8;2.8;1.8" dur="3.5s" begin="2.8s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Center core with chromatic echo -->
+        <circle cx="-0.5" cy="0" r="2.5" fill="#ff79c6" opacity="0.5"/>
+        <circle cx="0.5" cy="0" r="2.5" fill="#8be9fd" opacity="0.5"/>
+        <circle cx="0" cy="0" r="2.5" fill="#f8f8f2">
+          <animate attributeName="r" values="2.5;3.2;2.5" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- Online status dot -->
+    <circle cx="50" cy="8" r="2" fill="#50fa7b">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Bottom-right build tag -->
+  <text x="1216" y="307"
+        text-anchor="end"
+        font-family="'JetBrains Mono', monospace"
+        font-size="11"
+        fill="#6272a4"
+        letter-spacing="1"
+        opacity="0.7">v1.0.0 · built 2026-04-17</text>
+
+  <!-- Chromatic aberration layer: pink offset -2px, whisper-level -->
+  <text x="638" y="175"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace"
+        font-size="96"
+        font-weight="700"
+        fill="#ff79c6"
+        letter-spacing="12"
+        opacity="0">JASON LIU<animate attributeName="opacity" from="0" to="0.22" dur="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze"/></text>
+
+  <!-- Chromatic aberration layer: cyan offset +2px, whisper-level -->
+  <text x="642" y="175"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace"
+        font-size="96"
+        font-weight="700"
+        fill="#8be9fd"
+        letter-spacing="12"
+        opacity="0">JASON LIU<animate attributeName="opacity" from="0" to="0.22" dur="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze"/></text>
+
+  <!-- Main name: clean white foreground, no stroke -->
+  <text x="640" y="175"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', monospace"
+        font-size="96"
+        font-weight="700"
+        fill="#f8f8f2"
+        letter-spacing="12"
+        opacity="0">JASON LIU<animate attributeName="opacity" from="0" to="1" dur="1.4s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze"/></text>
+
+  <!-- Handle -->
+  <text x="640" y="225"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', monospace"
+        font-size="28"
+        font-weight="400"
+        fill="#8be9fd"
+        letter-spacing="8"
+        opacity="0">@kelbimon<animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.9s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze"/></text>
+
+  <!-- Blinking green cursor after handle -->
+  <rect x="768" y="205" width="12" height="26" fill="#50fa7b" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.1s" begin="1.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Role subtitle -->
+  <text x="640" y="282"
+        text-anchor="middle"
+        font-family="'JetBrains Mono', monospace"
+        font-size="11"
+        fill="#6272a4"
+        letter-spacing="3"
+        opacity="0">── marketing · tech · agentic systems · fullstack engineer · security ──<animate attributeName="opacity" from="0" to="0.78" begin="2.1s" dur="1s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze"/></text>
+</svg>

@@ -1,0 +1,36 @@
+name: refresh banner build date
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: banner-update
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: replace build date in banner.svg
+        run: |
+          TODAY="$(date -u +%Y-%m-%d)"
+          sed -E -i "s/built [0-9]{4}-[0-9]{2}-[0-9]{2}/built ${TODAY}/" assets/banner.svg
+
+      - name: commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/banner.svg
+          if git diff --cached --quiet; then
+            echo "no date change"
+          else
+            git commit -m "chore: refresh banner build date"
+            git push
+          fi
