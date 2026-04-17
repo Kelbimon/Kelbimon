@@ -15,19 +15,11 @@ jason liu · @kelbimon · marketing, tech, agentic systems,
 
 &nbsp;
 
-## `$ contrib --3d`
+## `$ contrib`
 
 <div align="center">
 
 ![3D contribution graph](./profile-3d-contrib/profile-season-animate.svg)
-
-</div>
-
-&nbsp;
-
-## `$ contrib --snake`
-
-<div align="center">
 
 ![contribution snake](https://raw.githubusercontent.com/Kelbimon/Kelbimon/output/snake.svg)
 
@@ -49,11 +41,9 @@ zsh        · tmux     · nvim · git
 
 ## `$ meta`
 
-```
-source        100% private repos
-built-with    .github/workflows/
-last-build    see commit history
-```
+<pre>source        100% private repos
+built-with    <a href="https://github.com/Kelbimon/Kelbimon/tree/main/.github/workflows">.github/workflows/</a>
+last-build    <a href="https://github.com/Kelbimon/Kelbimon/commits/main">commit history</a></pre>
 
 &nbsp;
 
