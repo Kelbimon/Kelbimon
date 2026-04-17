@@ -22,15 +22,15 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: generate snake with dracula palette
-        uses: Platane/snk/svg-only@b6b1c878cbc9d63aeb4e7fadb3e30e3ae4f8d0ed
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=#bd93f9&color_dots=#282a36,#44475a,#6272a4,#bd93f9,#ff79c6
-            dist/snake-light.svg?color_snake=#bd93f9&color_dots=#f8f8f2,#bd93f9,#ff79c6,#8be9fd,#50fa7b
+            dist/snake.svg?color_snake=%23bd93f9&color_dots=%23282a36,%2344475a,%236272a4,%23bd93f9,%23ff79c6
+            dist/snake-light.svg?color_snake=%23bd93f9&color_dots=%23f8f8f2,%23bd93f9,%23ff79c6,%238be9fd,%2350fa7b
 
       - name: push to output branch
-        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist

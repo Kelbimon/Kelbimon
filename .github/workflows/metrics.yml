@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@v4
 
       - name: core stats
-        uses: lowlighter/metrics@8c5b4eea9f1a4fcbbbee9e68fef5c3ba1df46407
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -45,7 +45,7 @@ jobs:
             .terminal-footer { color: #6272a4 !important; }
 
       - name: languages + habits + lines
-        uses: lowlighter/metrics@8c5b4eea9f1a4fcbbbee9e68fef5c3ba1df46407
+        uses: lowlighter/metrics@v3.34
         with:
           filename: metrics-stack.svg
           token: ${{ secrets.METRICS_TOKEN }}
