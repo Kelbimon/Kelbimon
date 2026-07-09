@@ -9,7 +9,7 @@
 ```
 $ oath
 jason liu · @kelbimon
-guildmaster · martech · fullstack · holy blue team
+Head of Tech & Marketing - VIC Group · fullstack · holy blue team
 ```
 
 &nbsp;
