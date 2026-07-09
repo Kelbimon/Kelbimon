@@ -47,22 +47,23 @@
   <rect x="856" y="80" width="236" height="16" fill="#1d4ed8"/>
   <text x="874" y="93" class="mono tiny" fill="#dbeafe">BLUE TEAM WARDEN</text>
 
-  <!-- Anime paladin sprite frame -->
+  <!-- Full-body paladin battle screen frame from the provided sprite sheet. -->
   <rect x="168" y="112" width="148" height="100" fill="#020617"/>
-  <rect x="180" y="124" width="124" height="76" fill="#fef9c3"/>
-  <rect x="192" y="136" width="100" height="52" fill="#1e3a8a"/>
-  <rect x="220" y="118" width="44" height="8" fill="#fde68a"/>
-  <rect x="208" y="126" width="68" height="8" fill="#facc15"/>
-  <rect x="216" y="136" width="52" height="12" fill="#f8fafc"/>
-  <rect x="208" y="148" width="68" height="16" fill="#fee2e2"/>
-  <rect x="220" y="156" width="8" height="8" fill="#1e3a8a"/>
-  <rect x="252" y="156" width="8" height="8" fill="#1e3a8a"/>
-  <rect x="216" y="168" width="52" height="20" fill="#f8fafc"/>
-  <rect x="236" y="168" width="8" height="20" fill="#facc15"/>
-  <rect x="204" y="176" width="24" height="16" fill="#60a5fa"/>
-  <rect x="256" y="176" width="24" height="16" fill="#60a5fa"/>
-  <rect x="284" y="136" width="6" height="52" fill="#f8fafc"/>
-  <rect x="280" y="144" width="14" height="6" fill="#facc15"/>
+  <rect x="180" y="124" width="124" height="76" fill="#0f172a"/>
+  <rect x="184" y="188" width="116" height="12" fill="#334155"/>
+  <rect x="194" y="184" width="88" height="4" fill="#facc15"/>
+  <ellipse cx="240" cy="198" rx="42" ry="7" fill="#020617" opacity="0.55"/>
+  <g transform="translate(208 104) scale(4)" image-rendering="pixelated">
+    <image width="16" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAACWUlEQVR42o2TIWzbQBSGP1cFGXOkVbpAw0YqaMCkFgwcGNhApY4l0LCWBmK2wMAri1kDDROpoGU7mLGEpWwHbakgZS67AeeuTrpOfdLJvqf73/+/+99BI4QQ1n2H/RsrhLB3N3/ssH/j9+7MqxBC2GqDdeBibT3YFWru3TpoFsl6IcYYOl3NcmHQWgOQJpJ4dF7/j2JWumA6XrxWUIShVVHolbj1L2WulQMHHsjxS7VWhXkoSROJeSihVZEmklyPdpTtsLuqTXaX21fRvItDV+TjySMA0bEA4Pb2louLc0/y6fMJ8IiUEq01uR5RlmUQNO1br9d0u10PcvujoyO+nPzweQcGCPZnAKCYJ3QuJ7wnDvbBzSLFPAHArDLSRNb/xmz3BQCBEML22rkHLjcDX6Bc3JE/R1wNp0RRhFll9bxMZ6hJ7YS/RDmoGe5kzepa6LXHqEnkFThwr517MpxVdjG2hTqzhTqzQgj79fiXVWNrq2Lm7fS5ra2HAGVZBkII61jTRGJWKfAEzMmmM8+43AwgzwELdOoWhBA2TSRM71FVy/fnQucxy82AYp5wrX9uc/UZPwdmlZGdx6iqtQNu9upc+Raf+VywDzarjGw6Q+cxzQtWkw6rNPK5U2Ve5mDnSTcs8re8vZdTZfxylnobHbuLofxN57IuIpFcxd994fTD8+4kZtNZzX4e83RcS7/Wa39ITTTR6ZWfQlW1PMbPgRr3bVXMrBr3bRGGO94LIWxVzGxVVf6MwwRvvYX9SBPJQN3Xr7Fdt+ym87/hFBRh6FU2VQS8M95S+Re9M6nmhNcqOwAAAABJRU5ErkJggg==">
+      <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.34;0.67;1" dur="900ms" repeatCount="indefinite"/>
+    </image>
+    <image width="16" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAACQUlEQVR42n2UL2zbQBTGf6kKUpZIq3SBholU0IBJKxg4MBBSaWUJDKylgRoGGnqsYQ00TKWChvWgYcwCd9CWBhJ2ZTfg3s1Ok5xk2ffnfe973/t88DGEENa9H8ZPVghhX5/+2Ifxk5+7M5+GEMKaLdYFFxvrgx1QfV4HO3Mg82EHrTW9gWKdaZRSAEShZDq7qb5nU3JVsIgzJjL2rBFC2KLTsUnQ8Uzcc4oZ9Zo9gDHWbLFJPLZmizXG2CQeNzRpaOE26tnqa/ss9kHOAb5c/QUg6AsAXl5euL298Um+fr8C/iKlRClFqmaUZdkCaDmkzWbDYDDwQW5+eXnJj6tffr0eDNCqewCgeA7p/Xz0ARMZk6oZx8bZocXiOaR4DsmjgFTN0Pnct1Rrjc7nRGGxZ6Ri6dW2WWyL5FsloDHW7RtjPs7ZpogAd7LDequIQulLiEIJu1X1Bua/26i0w3rba2Z32VymUf/NJrG1o/5bw1T1M44t+5STeFzRLZa+HJvFVgjhgR2IEMKeA5TZq2eUPKpPopbZK8NuipxIVNrcb7QxungnMW0Aht2U9XZCHgX+8HWi/bfWmiAI/osYhRIWq0bwsJtynUw4NQ76QE4W1IGrvkuG3ZTjF0qxtElQ/ZFOzLrybu72nT/OjlG7n95VteZzdD7/LO5udbiExLSJLt7Z9aeVeRZL6Iy8nU9qkJg2USi5zxak0ahaXKzY9XpeD9elgzrsP85USTyubqyaLs5IrVMtOnaNl2XZEkLYsixb/wAywsyT1JPNAAAAAABJRU5ErkJggg==">
+      <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.34;0.67;1" dur="900ms" repeatCount="indefinite"/>
+    </image>
+    <image width="16" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAACLUlEQVR42oWUIWzbQBSGP1cFLXOkVbpAw0UKSMCkFQwcGK20sQQGxtJADQMNPZawBgamUkELDwamLHCGtlSQsit7Bd5dz0nXPcmy787///7337uDv6GUEve+Ht2IUkrub/7I9ejGj90/R6GUErtHHLjaiQc7onAckp04ksUwpixLuj3DdlNijAEgSzWT2WXzPZvwaCqW+Yaxzr1qlFJSxbEUSeyVuOcjZYQ1ewJrxe6RIh+J3SPWWinyUcuTlhduIcwWzh2qOCQ5BfjUfwIg+awAuLu74+rq0if58q0PPKG1xhjDysyo6zoCiBzTbrej1+t5kBtfXFzwvf/Lz4dggCjsAYDqNqX7Y+4BY52zMjM+jNB1pZTIJhfZ5FIVXxsPqrUopRpjrRVbraXIpb0TzeTIE3iwtZ7kPfCpU5EMpr5xXAlZquH5oXkDi99nmFXMdt/16iOllFS3KQD15p5BUR75cBjl44LFck0xN2+t7MAuHrMEgGFnxbCzIksrQrXTyU98CWFmN54sc4Yd0ONGfjHvkqWaYm5aalrb6LICLTXvllGWJEnyZmKWagZFm33YWfnv7X7c/Hf+QmHP/PxJCMjOX7xJWarZ7se+hJAsjBaBY3ZbCjCd3LI2z+jxso18fmgTOFdddmfWYrkmGUyPzHtXAcDicvLWREAxN540S3Wr/qPzUOQjsdVaqjj2/e9uK3fhuHZ369HhrfxR5zlFbi4ZTIng/yf1X2t1XUevNxqhsnzqwRQAAAAASUVORK5CYII=">
+      <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.34;0.67;1" dur="900ms" repeatCount="indefinite"/>
+    </image>
+  </g>
 
   <!-- Identity -->
   <text x="350" y="152" class="mono name" fill="#f8fafc">JASON LIU</text>
