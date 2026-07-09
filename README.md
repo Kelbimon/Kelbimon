@@ -9,7 +9,7 @@
 ```
 $ oath
 jason liu · @kelbimon
-paladin build · martech · fullstack · holy blue team
+guildmaster · martech · fullstack · holy blue team
 ```
 
 &nbsp;
@@ -35,14 +35,6 @@ data       · supabase · postgres · mysql
 infra      · vercel · cloudflare · aws · digitalocean · gh
 security   · blue team · detection · hardening
 ```
-
-&nbsp;
-
-## `$ codex`
-
-<pre>source        100% private repos
-built-with    <a href="https://github.com/Kelbimon/Kelbimon/tree/main/.github/workflows">.github/workflows/</a>
-last-build    <a href="https://github.com/Kelbimon/Kelbimon/commits/main">commit history</a></pre>
 
 &nbsp;
 
