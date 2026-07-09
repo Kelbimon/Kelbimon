@@ -1,13 +1,13 @@
 {
   "type": "season",
-  "backgroundColor": "#282a36",
-  "foregroundColor": "#f8f8f2",
+  "backgroundColor": "#0b1026",
+  "foregroundColor": "#fefce8",
   "contributionColors": [
-    "#6272a4",
-    "#bd93f9",
-    "#ff79c6",
-    "#8be9fd",
-    "#50fa7b"
+    "#1e293b",
+    "#1d4ed8",
+    "#60a5fa",
+    "#facc15",
+    "#fef3c7"
   ],
   "fileName": "profile-3d-contrib/profile-season-animate.svg"
 }

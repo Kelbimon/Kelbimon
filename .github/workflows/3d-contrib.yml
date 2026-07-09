@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - '.github/workflows/3d-contrib.yml'
+      - '.github/3d-contrib-config.json'
 
 concurrency:
   group: 3d-contrib

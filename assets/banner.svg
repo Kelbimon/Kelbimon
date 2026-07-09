@@ -80,6 +80,5 @@
     <text x="510" y="316" fill="#e5e7eb">GH</text>
   </g>
 
-  <!-- Build tag kept for the existing date-refresh workflow. -->
-  <text x="1112" y="316" class="mono tiny" fill="#fef3c7" text-anchor="end">built 2026-07-09</text>
+  <text x="1112" y="316" class="mono tiny" fill="#fef3c7" text-anchor="end">oath sealed</text>
 </svg>

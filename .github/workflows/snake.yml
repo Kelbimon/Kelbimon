@@ -21,13 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: generate snake with dracula palette
+      - name: generate snake with holy paladin palette
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=%23bd93f9&color_dots=%23282a36,%2344475a,%236272a4,%23bd93f9,%23ff79c6
-            dist/snake-light.svg?color_snake=%23bd93f9&color_dots=%23f8f8f2,%23bd93f9,%23ff79c6,%238be9fd,%2350fa7b
+            dist/snake.svg?color_snake=%23facc15&color_dots=%230b1026,%231e293b,%231d4ed8,%23bfdbfe,%23fef3c7
+            dist/snake-light.svg?color_snake=%231d4ed8&color_dots=%23fefce8,%23bfdbfe,%2360a5fa,%23facc15,%230b1026
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v5
