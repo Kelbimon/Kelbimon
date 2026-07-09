@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Jason Liu - holy paladin profile card" shape-rendering="crispEdges">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Jason Liu - holy paladin profile card" shape-rendering="crispEdges">
   <title>Jason Liu - holy paladin profile card</title>
   <desc>Pixel JRPG holy paladin guild card profile banner for Jason Liu.</desc>
 
@@ -10,50 +10,50 @@
       <rect x="52" y="48" width="2" height="2" fill="#bfdbfe"/>
     </pattern>
     <style>
-      .mono { font-family: "Courier New", monospace; }
-      .tiny { font-size: 15px; letter-spacing: 2px; }
-      .label { font-size: 16px; letter-spacing: 1px; font-weight: 700; }
-      .name { font-size: 54px; letter-spacing: 4px; font-weight: 700; }
+      .mono { font-family: Georgia, "Times New Roman", serif; font-variant: small-caps; }
+      .tiny { font-size: 16px; letter-spacing: 3px; font-weight: 700; }
+      .label { font-size: 18px; letter-spacing: 1px; font-weight: 700; }
+      .name { font-size: 62px; letter-spacing: 6px; font-weight: 700; }
     </style>
   </defs>
 
-  <rect width="1280" height="320" fill="url(#sanctum)"/>
+  <rect width="1280" height="380" fill="url(#sanctum)"/>
 
   <!-- Holy card shell -->
-  <rect x="104" y="56" width="1088" height="232" fill="#030712"/>
-  <rect x="88" y="40" width="1088" height="232" fill="#111827"/>
-  <rect x="104" y="56" width="1056" height="200" fill="#1e293b"/>
-  <rect x="120" y="72" width="1024" height="168" fill="#fefce8"/>
-  <rect x="136" y="88" width="992" height="136" fill="#1e1b4b"/>
+  <rect x="104" y="64" width="1088" height="284" fill="#030712"/>
+  <rect x="88" y="48" width="1088" height="284" fill="#111827"/>
+  <rect x="104" y="64" width="1056" height="252" fill="#1e293b"/>
+  <rect x="120" y="80" width="1024" height="220" fill="#fefce8"/>
+  <rect x="136" y="96" width="992" height="188" fill="#1e1b4b"/>
 
   <!-- Pixel cut corners and gold trim -->
-  <rect x="88" y="40" width="32" height="32" fill="#0b1026"/>
-  <rect x="1144" y="40" width="32" height="32" fill="#0b1026"/>
-  <rect x="88" y="240" width="32" height="32" fill="#0b1026"/>
-  <rect x="1144" y="240" width="32" height="32" fill="#0b1026"/>
-  <rect x="120" y="40" width="1024" height="16" fill="#facc15"/>
-  <rect x="120" y="256" width="1024" height="16" fill="#facc15"/>
-  <rect x="88" y="72" width="16" height="168" fill="#facc15"/>
-  <rect x="1160" y="72" width="16" height="168" fill="#facc15"/>
-  <rect x="136" y="88" width="992" height="8" fill="#bfdbfe"/>
-  <rect x="136" y="216" width="992" height="8" fill="#bfdbfe"/>
+  <rect x="88" y="48" width="32" height="32" fill="#0b1026"/>
+  <rect x="1144" y="48" width="32" height="32" fill="#0b1026"/>
+  <rect x="88" y="300" width="32" height="32" fill="#0b1026"/>
+  <rect x="1144" y="300" width="32" height="32" fill="#0b1026"/>
+  <rect x="120" y="48" width="1024" height="16" fill="#facc15"/>
+  <rect x="120" y="316" width="1024" height="16" fill="#facc15"/>
+  <rect x="88" y="80" width="16" height="220" fill="#facc15"/>
+  <rect x="1160" y="80" width="16" height="220" fill="#facc15"/>
+  <rect x="136" y="96" width="992" height="8" fill="#bfdbfe"/>
+  <rect x="136" y="276" width="992" height="8" fill="#bfdbfe"/>
 
   <!-- Top ribbons -->
-  <rect x="152" y="72" width="408" height="32" fill="#020617"/>
-  <rect x="160" y="80" width="392" height="16" fill="#b45309"/>
-  <text x="176" y="93" class="mono tiny" fill="#fef3c7">HOLY GUILD CARD // PALADIN</text>
+  <rect x="152" y="80" width="408" height="32" fill="#020617"/>
+  <rect x="160" y="88" width="392" height="16" fill="#b45309"/>
+  <text x="176" y="102" class="mono tiny" fill="#fef3c7">HOLY GUILD CARD // PALADIN</text>
 
-  <rect x="848" y="72" width="252" height="32" fill="#020617"/>
-  <rect x="856" y="80" width="236" height="16" fill="#1d4ed8"/>
-  <text x="874" y="93" class="mono tiny" fill="#dbeafe">BLUE TEAM WARDEN</text>
+  <rect x="848" y="80" width="252" height="32" fill="#020617"/>
+  <rect x="856" y="88" width="236" height="16" fill="#1d4ed8"/>
+  <text x="874" y="102" class="mono tiny" fill="#dbeafe">BLUE TEAM WARDEN</text>
 
   <!-- Full-body paladin battle screen frame from the provided sprite sheet. -->
-  <rect x="168" y="112" width="148" height="100" fill="#020617"/>
-  <rect x="180" y="124" width="124" height="76" fill="#0f172a"/>
-  <rect x="184" y="188" width="116" height="12" fill="#334155"/>
-  <rect x="194" y="184" width="88" height="4" fill="#facc15"/>
-  <ellipse cx="240" cy="198" rx="42" ry="7" fill="#020617" opacity="0.55"/>
-  <g transform="translate(208 104) scale(4)" image-rendering="pixelated">
+  <rect x="168" y="120" width="148" height="148" fill="#020617"/>
+  <rect x="180" y="132" width="124" height="116" fill="#0f172a"/>
+  <rect x="184" y="248" width="116" height="12" fill="#334155"/>
+  <rect x="194" y="244" width="88" height="4" fill="#facc15"/>
+  <ellipse cx="242" cy="260" rx="52" ry="8" fill="#020617" opacity="0.55"/>
+  <g transform="translate(202 126) scale(5)" image-rendering="pixelated">
     <image width="16" height="24" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAYCAYAAADzoH0MAAACWUlEQVR42o2TIWzbQBSGP1cFGXOkVbpAw0YqaMCkFgwcGNhApY4l0LCWBmK2wMAri1kDDROpoGU7mLGEpWwHbakgZS67AeeuTrpOfdLJvqf73/+/+99BI4QQ1n2H/RsrhLB3N3/ssH/j9+7MqxBC2GqDdeBibT3YFWru3TpoFsl6IcYYOl3NcmHQWgOQJpJ4dF7/j2JWumA6XrxWUIShVVHolbj1L2WulQMHHsjxS7VWhXkoSROJeSihVZEmklyPdpTtsLuqTXaX21fRvItDV+TjySMA0bEA4Pb2louLc0/y6fMJ8IiUEq01uR5RlmUQNO1br9d0u10PcvujoyO+nPzweQcGCPZnAKCYJ3QuJ7wnDvbBzSLFPAHArDLSRNb/xmz3BQCBEML22rkHLjcDX6Bc3JE/R1wNp0RRhFll9bxMZ6hJ7YS/RDmoGe5kzepa6LXHqEnkFThwr517MpxVdjG2hTqzhTqzQgj79fiXVWNrq2Lm7fS5ra2HAGVZBkII61jTRGJWKfAEzMmmM8+43AwgzwELdOoWhBA2TSRM71FVy/fnQucxy82AYp5wrX9uc/UZPwdmlZGdx6iqtQNu9upc+Raf+VywDzarjGw6Q+cxzQtWkw6rNPK5U2Ve5mDnSTcs8re8vZdTZfxylnobHbuLofxN57IuIpFcxd994fTD8+4kZtNZzX4e83RcS7/Wa39ITTTR6ZWfQlW1PMbPgRr3bVXMrBr3bRGGO94LIWxVzGxVVf6MwwRvvYX9SBPJQN3Xr7Fdt+ym87/hFBRh6FU2VQS8M95S+Re9M6nmhNcqOwAAAABJRU5ErkJggg==">
       <animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.34;0.67;1" dur="900ms" repeatCount="indefinite"/>
     </image>
@@ -66,24 +66,24 @@
   </g>
 
   <!-- Identity -->
-  <text x="350" y="152" class="mono name" fill="#f8fafc">JASON LIU</text>
-  <text x="354" y="186" class="mono label" fill="#bfdbfe">@kelbimon</text>
-  <text x="354" y="214" class="mono label" fill="#fde68a">FULLSTACK / MARTECH / HOLY BLUE TEAM</text>
+  <text x="368" y="176" class="mono name" fill="#f8fafc">Jason Liu</text>
+  <text x="374" y="214" class="mono label" fill="#bfdbfe">@kelbimon</text>
+  <text x="374" y="244" class="mono label" fill="#fde68a">Fullstack / Martech / Holy Blue Team</text>
 
   <!-- Relic slots -->
   <g class="mono tiny" font-weight="700">
-    <rect x="152" y="232" width="72" height="32" fill="#020617"/>
-    <text x="174" y="254" fill="#bfdbfe">TS</text>
-    <rect x="236" y="232" width="72" height="32" fill="#020617"/>
-    <text x="258" y="254" fill="#86efac">PY</text>
-    <rect x="320" y="232" width="72" height="32" fill="#020617"/>
-    <text x="338" y="254" fill="#c4b5fd">PHP</text>
-    <rect x="404" y="232" width="72" height="32" fill="#020617"/>
-    <text x="422" y="254" fill="#fde68a">SQL</text>
-    <rect x="488" y="232" width="72" height="32" fill="#020617"/>
-    <text x="510" y="254" fill="#e5e7eb">GH</text>
+    <rect x="152" y="292" width="72" height="36" fill="#020617"/>
+    <text x="174" y="316" fill="#bfdbfe">TS</text>
+    <rect x="236" y="292" width="72" height="36" fill="#020617"/>
+    <text x="258" y="316" fill="#86efac">PY</text>
+    <rect x="320" y="292" width="72" height="36" fill="#020617"/>
+    <text x="338" y="316" fill="#c4b5fd">PHP</text>
+    <rect x="404" y="292" width="72" height="36" fill="#020617"/>
+    <text x="422" y="316" fill="#fde68a">SQL</text>
+    <rect x="488" y="292" width="72" height="36" fill="#020617"/>
+    <text x="510" y="316" fill="#e5e7eb">GH</text>
   </g>
 
   <!-- Build tag kept for the existing date-refresh workflow. -->
-  <text x="1112" y="254" class="mono tiny" fill="#fef3c7" text-anchor="end">built 2026-07-09</text>
+  <text x="1112" y="316" class="mono tiny" fill="#fef3c7" text-anchor="end">built 2026-07-09</text>
 </svg>

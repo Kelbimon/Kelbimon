@@ -2,8 +2,6 @@
 
 ![Jason Liu — @kelbimon](./assets/banner.svg)
 
-<img src="./assets/paladin.svg" width="128" alt="Cecil paladin battle sprite" />
-
 </div>
 
 &nbsp;
