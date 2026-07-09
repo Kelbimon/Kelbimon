@@ -2,19 +2,21 @@
 
 ![Jason Liu — @kelbimon](./assets/banner.svg)
 
+<img src="./assets/paladin.svg" width="128" alt="Anime paladin sprite" />
+
 </div>
 
 &nbsp;
 
 ```
-$ whoami
+$ oath
 jason liu · @kelbimon
-marketing · tech · fullstack · blue team
+paladin build · martech · fullstack · holy blue team
 ```
 
 &nbsp;
 
-## `$ contrib`
+## `$ campaign`
 
 <div align="center">
 
@@ -26,7 +28,7 @@ marketing · tech · fullstack · blue team
 
 &nbsp;
 
-## `$ stack`
+## `$ armory`
 
 ```
 frontend   · typescript · next · react · tanstack · tailwind
@@ -38,7 +40,7 @@ security   · blue team · detection · hardening
 
 &nbsp;
 
-## `$ meta`
+## `$ codex`
 
 <pre>source        100% private repos
 built-with    <a href="https://github.com/Kelbimon/Kelbimon/tree/main/.github/workflows">.github/workflows/</a>
@@ -47,5 +49,5 @@ last-build    <a href="https://github.com/Kelbimon/Kelbimon/commits/main">commit
 &nbsp;
 
 <div align="center">
-<sub><code>exit 0</code></sub>
+<sub><code>oath sealed</code></sub>
 </div>

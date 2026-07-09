@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Jason Liu - @kelbimon" shape-rendering="crispEdges">
-  <title>Jason Liu - @kelbimon</title>
-  <desc>Pixel JRPG guild card profile banner for Jason Liu.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Jason Liu - holy paladin profile card" shape-rendering="crispEdges">
+  <title>Jason Liu - holy paladin profile card</title>
+  <desc>Pixel JRPG holy paladin guild card profile banner for Jason Liu.</desc>
 
   <defs>
-    <pattern id="stars" width="48" height="48" patternUnits="userSpaceOnUse">
-      <rect width="48" height="48" fill="#111827"/>
-      <rect x="8" y="12" width="4" height="4" fill="#334155"/>
-      <rect x="34" y="30" width="4" height="4" fill="#1d4ed8"/>
-      <rect x="20" y="38" width="2" height="2" fill="#93c5fd"/>
+    <pattern id="sanctum" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect width="64" height="64" fill="#0b1026"/>
+      <rect x="8" y="12" width="4" height="4" fill="#1e3a8a"/>
+      <rect x="34" y="28" width="4" height="4" fill="#facc15"/>
+      <rect x="52" y="48" width="2" height="2" fill="#bfdbfe"/>
     </pattern>
     <style>
       .mono { font-family: "Courier New", monospace; }
@@ -17,52 +17,62 @@
     </style>
   </defs>
 
-  <rect width="1280" height="320" fill="url(#stars)"/>
+  <rect width="1280" height="320" fill="url(#sanctum)"/>
 
-  <!-- Pixel guild-card shadow -->
-  <rect x="104" y="56" width="1088" height="232" fill="#050816"/>
-  <rect x="88" y="40" width="1088" height="232" fill="#0f172a"/>
+  <!-- Holy card shell -->
+  <rect x="104" y="56" width="1088" height="232" fill="#030712"/>
+  <rect x="88" y="40" width="1088" height="232" fill="#111827"/>
   <rect x="104" y="56" width="1056" height="200" fill="#1e293b"/>
-  <rect x="120" y="72" width="1024" height="168" fill="#f8fafc"/>
-  <rect x="136" y="88" width="992" height="136" fill="#172554"/>
+  <rect x="120" y="72" width="1024" height="168" fill="#fefce8"/>
+  <rect x="136" y="88" width="992" height="136" fill="#1e1b4b"/>
 
-  <!-- Pixel cut corners -->
-  <rect x="88" y="40" width="32" height="32" fill="#111827"/>
-  <rect x="1144" y="40" width="32" height="32" fill="#111827"/>
-  <rect x="88" y="240" width="32" height="32" fill="#111827"/>
-  <rect x="1144" y="240" width="32" height="32" fill="#111827"/>
-  <rect x="120" y="40" width="1024" height="16" fill="#60a5fa"/>
-  <rect x="120" y="256" width="1024" height="16" fill="#60a5fa"/>
-  <rect x="88" y="72" width="16" height="168" fill="#60a5fa"/>
-  <rect x="1160" y="72" width="16" height="168" fill="#60a5fa"/>
+  <!-- Pixel cut corners and gold trim -->
+  <rect x="88" y="40" width="32" height="32" fill="#0b1026"/>
+  <rect x="1144" y="40" width="32" height="32" fill="#0b1026"/>
+  <rect x="88" y="240" width="32" height="32" fill="#0b1026"/>
+  <rect x="1144" y="240" width="32" height="32" fill="#0b1026"/>
+  <rect x="120" y="40" width="1024" height="16" fill="#facc15"/>
+  <rect x="120" y="256" width="1024" height="16" fill="#facc15"/>
+  <rect x="88" y="72" width="16" height="168" fill="#facc15"/>
+  <rect x="1160" y="72" width="16" height="168" fill="#facc15"/>
+  <rect x="136" y="88" width="992" height="8" fill="#bfdbfe"/>
+  <rect x="136" y="216" width="992" height="8" fill="#bfdbfe"/>
 
-  <!-- Top ribbon -->
-  <rect x="152" y="72" width="360" height="32" fill="#020617"/>
-  <rect x="160" y="80" width="344" height="16" fill="#1d4ed8"/>
-  <text x="176" y="93" class="mono tiny" fill="#dbeafe">GUILD CARD // KELBIMON</text>
+  <!-- Top ribbons -->
+  <rect x="152" y="72" width="408" height="32" fill="#020617"/>
+  <rect x="160" y="80" width="392" height="16" fill="#b45309"/>
+  <text x="176" y="93" class="mono tiny" fill="#fef3c7">HOLY GUILD CARD // PALADIN</text>
 
-  <!-- Blue-team badge -->
-  <rect x="876" y="72" width="224" height="32" fill="#020617"/>
-  <rect x="884" y="80" width="208" height="16" fill="#0f766e"/>
-  <text x="902" y="93" class="mono tiny" fill="#ccfbf1">BLUE TEAM FOCUS</text>
+  <rect x="848" y="72" width="252" height="32" fill="#020617"/>
+  <rect x="856" y="80" width="236" height="16" fill="#1d4ed8"/>
+  <text x="874" y="93" class="mono tiny" fill="#dbeafe">BLUE TEAM WARDEN</text>
 
-  <!-- Portrait slot / crest -->
-  <rect x="168" y="124" width="132" height="76" fill="#020617"/>
-  <rect x="184" y="140" width="100" height="44" fill="#1e40af"/>
-  <path d="M234 134 L278 150 L278 170 L234 194 L190 170 L190 150 Z" fill="#93c5fd"/>
-  <path d="M234 144 L266 156 L266 168 L234 184 L202 168 L202 156 Z" fill="#172554"/>
-  <rect x="228" y="152" width="12" height="24" fill="#facc15"/>
-  <rect x="216" y="164" width="36" height="8" fill="#facc15"/>
+  <!-- Anime paladin sprite frame -->
+  <rect x="168" y="112" width="148" height="100" fill="#020617"/>
+  <rect x="180" y="124" width="124" height="76" fill="#fef9c3"/>
+  <rect x="192" y="136" width="100" height="52" fill="#1e3a8a"/>
+  <rect x="220" y="118" width="44" height="8" fill="#fde68a"/>
+  <rect x="208" y="126" width="68" height="8" fill="#facc15"/>
+  <rect x="216" y="136" width="52" height="12" fill="#f8fafc"/>
+  <rect x="208" y="148" width="68" height="16" fill="#fee2e2"/>
+  <rect x="220" y="156" width="8" height="8" fill="#1e3a8a"/>
+  <rect x="252" y="156" width="8" height="8" fill="#1e3a8a"/>
+  <rect x="216" y="168" width="52" height="20" fill="#f8fafc"/>
+  <rect x="236" y="168" width="8" height="20" fill="#facc15"/>
+  <rect x="204" y="176" width="24" height="16" fill="#60a5fa"/>
+  <rect x="256" y="176" width="24" height="16" fill="#60a5fa"/>
+  <rect x="284" y="136" width="6" height="52" fill="#f8fafc"/>
+  <rect x="280" y="144" width="14" height="6" fill="#facc15"/>
 
   <!-- Identity -->
-  <text x="336" y="158" class="mono name" fill="#f8fafc">JASON LIU</text>
-  <text x="340" y="192" class="mono label" fill="#93c5fd">@kelbimon</text>
-  <text x="340" y="218" class="mono label" fill="#fde68a">FULLSTACK / MARTECH / BLUE TEAM</text>
+  <text x="350" y="152" class="mono name" fill="#f8fafc">JASON LIU</text>
+  <text x="354" y="186" class="mono label" fill="#bfdbfe">@kelbimon</text>
+  <text x="354" y="214" class="mono label" fill="#fde68a">FULLSTACK / MARTECH / HOLY BLUE TEAM</text>
 
-  <!-- Bottom item slots -->
+  <!-- Relic slots -->
   <g class="mono tiny" font-weight="700">
     <rect x="152" y="232" width="72" height="32" fill="#020617"/>
-    <text x="174" y="254" fill="#93c5fd">TS</text>
+    <text x="174" y="254" fill="#bfdbfe">TS</text>
     <rect x="236" y="232" width="72" height="32" fill="#020617"/>
     <text x="258" y="254" fill="#86efac">PY</text>
     <rect x="320" y="232" width="72" height="32" fill="#020617"/>
@@ -74,5 +84,5 @@
   </g>
 
   <!-- Build tag kept for the existing date-refresh workflow. -->
-  <text x="1112" y="254" class="mono tiny" fill="#bfdbfe" text-anchor="end">built 2026-07-09</text>
+  <text x="1112" y="254" class="mono tiny" fill="#fef3c7" text-anchor="end">built 2026-07-09</text>
 </svg>
