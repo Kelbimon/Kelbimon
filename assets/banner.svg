@@ -43,10 +43,6 @@
   <rect x="160" y="88" width="392" height="16" fill="#b45309"/>
   <text x="176" y="102" class="mono tiny" fill="#fef3c7">HOLY GUILD CARD // PALADIN</text>
 
-  <rect x="848" y="80" width="252" height="32" fill="#020617"/>
-  <rect x="856" y="88" width="236" height="16" fill="#1d4ed8"/>
-  <text x="874" y="102" class="mono tiny" fill="#dbeafe">BLUE TEAM WARDEN</text>
-
   <!-- Full-body paladin battle screen frame from the provided sprite sheet. -->
   <rect x="168" y="120" width="148" height="148" fill="#020617"/>
   <rect x="180" y="132" width="124" height="116" fill="#0f172a"/>
@@ -68,7 +64,7 @@
   <!-- Identity -->
   <text x="368" y="176" class="mono name" fill="#f8fafc">Jason Liu</text>
   <text x="374" y="214" class="mono label" fill="#bfdbfe">@kelbimon</text>
-  <text x="374" y="244" class="mono label" fill="#fde68a">Fullstack / Martech / Holy Blue Team</text>
+  <text x="374" y="244" class="mono label" fill="#fde68a">Fullstack / Martech / Blue Warden</text>
 
   <!-- Relic slots -->
   <g class="mono tiny" font-weight="700">
