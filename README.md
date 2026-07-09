@@ -8,9 +8,8 @@
 
 ```
 $ whoami
-─────────────────────────────────────────────────────────
-jason liu · @kelbimon · marketing, tech, agentic systems,
-                        fullstack engineer, security
+jason liu · @kelbimon
+marketing · tech · fullstack · blue team
 ```
 
 &nbsp;
@@ -30,11 +29,11 @@ jason liu · @kelbimon · marketing, tech, agentic systems,
 ## `$ stack`
 
 ```
-typescript · next · react · tailwind
-python     · fastapi
-supabase   · postgres
-vercel     · cloudflare
-zsh        · tmux     · nvim · git
+frontend   · typescript · next · react · tanstack · tailwind
+backend    · python · fastapi · node · php · yii2
+data       · supabase · postgres · mysql
+infra      · vercel · cloudflare · aws · digitalocean · gh
+security   · blue team · detection · hardening
 ```
 
 &nbsp;
