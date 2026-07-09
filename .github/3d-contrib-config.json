@@ -1,8 +1,12 @@
 {
-  "type": "season",
+  "type": "normal",
   "backgroundColor": "#0b1026",
   "foregroundColor": "#fefce8",
-  "contributionColors": [
+  "strongColor": "#bfdbfe",
+  "weakColor": "#334155",
+  "radarColor": "#facc15",
+  "growingAnimation": true,
+  "contribColors": [
     "#1e293b",
     "#1d4ed8",
     "#60a5fa",
